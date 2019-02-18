@@ -1,0 +1,425 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Bob's Flying school | My CASA</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/furnace.min.css">
+	<!--<link rel="stylesheet" href="css/lead.css">-->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="live-demo au-body au-grid js">
+	<header class="au-header logo au-body au-body--dark" role="banner">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-md-9 col-xs-7">
+	        <a class="au-header__brand" href="00-user-homepage.html">
+	          <img class="au-header__brand-image" alt="my CASA" src="img/CASALOGO-white-i.svg">
+					</a>
+	      </div>
+	      <div class="col-md-3 col-xs-5"><a class="au-btn au-btn--dark" href="signed-out.html">Sign out</a></div>
+	    </div>
+	  </div>
+	</header>
+
+			<div class="banner">
+				<div class=container>
+					<div class="row">
+					 <div class="col-md-12">
+				This service is currently in beta, we encourage you to <a href="feedback.html">provide feedback</a>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class=container>
+			<div class="row">
+			 <div class="col-md-12">
+				<nav class="au-breadcrumbs" aria-label="breadcrumb">
+			  <ul class="au-link-list au-link-list--inline">
+			    <li><a href="00-user-homepage.html">Home</a></li>
+			    <li><a href="01-organisation.html">Bob's Flying School</a></li>
+					<li>Remote Pilot Licence (RePL)</li>
+			  </ul>
+			</nav>
+		</div>
+	</div>
+		</div>
+<main id="main-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12"><br>
+				<div role="alert" class="au-body au-page-alerts au-page-alerts--error" id="error">
+					<h3>Please complete the Remotely Piloted Aircraft details</h3>
+				</div>
+					<h2 class="au-display-xl m-t-2">Remote Pilot Licence (RePL) application</h2>
+					<a class="au-direction-link au-direction-link--left" href="javascript:history.back()">Back</a>
+
+					<!--<h3 class="label m-t-2">RePL Training</h3>-->
+					 <!--<div class="form-section">-->
+						 <!--Theory and Operational-->
+						 <!--<label class="au-control-input">
+							  <input class="au-control-input__input" type="radio" name="radio-ex">
+							  <span class="au-control-input__text">Both Theory and Operational</span>
+							</label><br>
+							<label class="au-control-input">
+							  <input class="au-control-input__input" type="radio" name="radio-ex">
+							  <span class="au-control-input__text">Only Operational</span>
+							</label>
+						</div>-->
+					<!--<div class="form-section">
+						<label for="text-input">Course Number</label>
+						<input class="au-text-input" name="text-input" id="text-input" type="text">
+					</div>-->
+				
+					<div class="au-callout" aria-label="Callout description1">
+						
+						This application form is to be used to make an application for a remote pilot lience in accordance with regulation 101.290 of the Civil Aviation Safety Regulations 1998.
+						<br /><br /> 
+						Persons listed on this application will be checked against CASA records for existing RePLs. Any person with an existing RePL will be issued a variaton to their existing RePL while any person with no existing RePL will receive an initial issue if they meet the eligibility requirement.
+
+
+						
+						
+				
+					
+					</div>
+
+
+							<h3 class="m-t-4">Remotely Piloted Aircraft details</h3>
+							<div class="form-section">
+								<label for="category">Category</label>
+								<select id="category" class="au-select au-select--block">
+									<option value="1" selected="selected">Please select</option>
+									<option value="2">Aeroplane</option>
+									<option value="3">Helicopter</option>
+									<option value="4">Multi Rotor</option>
+									<option value="5">Airship</option>
+									<option value="6">Powered Lift</option>
+								</select>
+							</div>
+							<div class="form-section">
+								<label for="weight">Weight Class/Capacity</label>
+								<select id="weight" class="au-select au-select--block">
+									<option value="1" selected="selected">Please select</option>
+									<option value="2">Restricted - Up to 25kg</option>
+									<option value="3">Small - Up to 25kg</option>
+									<option value="4">Medium - Up to 150kg</option>
+									<option value="5">Large - More than 150kg</option>
+								</select>
+							</div>
+							<div class="form-section">
+								<label for="capacity">Capacity</label>
+								<select id="capacity" class="au-select au-select--block">
+									<option value="1" selected="selected">Please select</option>
+									<option value="2">Envelope capacity less than 100m&sup3; </option>
+									<option value="3">Envelope capacity more than 100m&sup3; </option>
+								</select>
+							</div>				
+				
+							<div class="form-section">
+								<label for="rpatypeaero">RPA Type</label>
+								<select id="rpatypeaero" class="au-select au-select--block">
+									<option value="1" selected="selected">Please select</option>
+									<option value="2">Aerosonde MK4.7 (MTOW up to 36.3kg)</option>
+									<option value="3">Aerosonde MK 47 (MTOW up to 32kg)</option>
+									<option value="4">Aerosonde MK 4X (MTOW up to 35kg)</option>
+									<option value="5">Airbus Zephyr 8 (MTOW up to 75kg)</option>
+									<option value="6">Boeing Insitu RQ-21 Blackjack (MTOW up to 61kg)</option>
+									<option value="7">CyberEye 2 (MTOW up to 80kg)</option>
+									<option value="8">CyberHawk (MTOW up to 30kg)</option>
+									<option value="9">CyberWraith (MTOW up to 30kg)</option>
+									<option value="10">Cybird 5 (MTOW up to 54kg)</option>
+									<option value="11">Elson Space Engineering (MTOW up to 80kg)</option>
+									<option value="12">HALE 150 - (MTOW up to 150kg)</option>
+									<option value="13">Phoenix (MTOW up to 65kg)</option>
+									<option value="14">UASci Ltd Kestrel (MTOW up to 150kg)</option>					
+								</select>
+							</div>
+								<div class="form-section">
+								<label for="rpatypeair">RPA Type</label>
+								<select id="rpatypeair" class="au-select au-select--block">
+									<option value="1" selected="selected">Please select</option>
+									<option value="2">Airship AS10</option>
+											
+								</select>
+							</div>
+								<div class="form-section">
+								<label for="rpatypeheli">RPA Type</label>
+								<select id="rpatypeheli" class="au-select au-select--block">
+									<option value="1" selected="selected">Please select</option>
+									<option value="2">Cybershark 2 (MTOW up to 80kg)</option>
+									<option value="3">Sungwoo REMO-8H  (MTOW up to 120kg)</option>
+									<option value="4">Yamaha Fazer (MTOW up to 120kg)</option>
+									<option value="5">Yamaha RMAX (MTOW up to 99kg)</option>
+									<option value="6">Yamaha RMAX GII (MTOW up to 99kg)</option>								
+								</select>
+							</div>
+								<div class="form-section">
+								<label for="rpatypmulti">RPA Type</label>
+								<select id="rpatypemulti" class="au-select au-select--block">
+									<option value="1" selected="selected">Please select</option>
+									<option value="2">Grollo Aerospace MLGRAM Evader (MTOW up to 80kg)</option>
+									<option value="3">Grollo Aerospace Pty Ltd Evader (MTOW up to 99kg)</option>
+									<option value="4">Gryphon Dynamics X8 1400 (MTOW up to 40kg)</option>
+									<option value="5">Gryphon Dynamics X8 Super (MTOW up to 40kg)</option>
+									<option value="6">Gryphon X8 (MTOW up to 45kg)</option>
+									<option value="7">Heliguy Turbine X8 (MTOW up to 40kg)</option>
+									<option value="8">Heliguy Vulcan Super Raven L (MTOW up to 40kg)</option>
+									<option value="9">JAR Aerospace - A-HEX 12 (MTOW up to 100kg)</option>
+									<option value="10">JAR Aerospace - A-HEX 6 (MTOW up to 45kg)</option>
+									<option value="11">JAR Aerospace - A-QUAD 4 (MTOW up to 30kg)</option>
+									<option value="12">JAR Aerospace - A-QUAD 8 (MTOW up to 60kg)</option>
+									<option value="13">Shotover U1 (MTOW up to 40kg)</option>
+									<option value="14">Sky Hero Spyder 12 (MTOW up to 34kg)</option>
+									<option value="15">SkyJib X4-XL (Heavy) (MTOW up to 40kg)</option>
+									<option value="16">U-Drone Robotics AG-10 (MTOW up to 27kg)</option>
+									<option value="17">XM2 Octocopter (MTOW up to 40kg)</option>				
+								</select>
+							</div>
+									<div class="form-section">
+								<label for="rpatypepow">RPA Type</label>
+								<select id="rpatypepow" class="au-select au-select--block">
+									<option value="1" selected="selected">Please select</option>
+									<option value="2">Aerosonde HQ (MTOW up to 44kg)</option>			
+								</select>
+							</div>
+				
+				
+							<p>&nbsp;</p>
+		</div>
+	</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<a href="02-student.html" class="au-btn" id="next">Next</a>
+				<div class="save-exit">
+				<a href="01-organisation.html#id-progress" class="au-btn au-btn--secondary">
+				Save and exit
+				</a>&nbsp; to continue this application later
+			 </div>
+			</div>
+		</div>
+	</div>
+</main>
+<footer class="footer">
+		<div class="footer-wrapper">
+			<iframe src="footer.html" frameborder="0" border="0" scrolling="no"></iframe>
+		</div>
+</footer>
+<script type="text/javascript" src="js/furnace.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+	$("#error").hide();
+	/*$('select').focusout(function() {
+		var option = $(this).val();
+		if(option == 1){
+			var label = $(this).parent().find('label').text();
+			//alert(label);
+			$(this).addClass('form-error');
+			$(this).before('<span style="color:#d82c52;">Please select an option for '+ label +' </span>');
+			$(this).on('change', function() {
+					$(this).removeClass('form-error');
+					$(this).parent().find('span').remove();
+			});
+		}
+	});*/
+
+		$('#capacity').parent().addClass('hidden');
+	$('.save-exit').hide();
+	$('#category').on('change', function() {
+		$('.save-exit').show();
+	});
+	$('#category').on('change', function() {
+		var c = document.getElementById("category");
+		var cVal = c.options[c.selectedIndex].value;
+			if  (cVal == 5){
+			$('#capacity').parent().removeClass('hidden');
+			$('#rpatypeair').parent().removeClass('hidden');
+			$('#weight').parent().addClass('hidden');
+			$('#rpatypeaero').parent().addClass('hidden');
+			$('#rpatypeheli').parent().addClass('hidden');
+			$('#rpatypemulti').parent().addClass('hidden');
+			$('#rpatypepow').parent().addClass('hidden');	
+			}
+	});
+	
+		$('#category').on('change', function() {
+		var c = document.getElementById("category");
+		var cVal = c.options[c.selectedIndex].value;
+			if  (cVal == 1 || cVal == 2 || cVal == 3 || cVal == 4 || cVal == 6){
+			$('#capacity').parent().addClass('hidden');
+			$('#rpatypeair').parent().addClass('hidden');
+			}
+	});
+		
+			$('#weight').parent().addClass('hidden');
+	$('.save-exit').hide();
+	$('#category').on('change', function() {
+		$('.save-exit').show();
+	});
+	$('#category').on('change', function() {
+		var c = document.getElementById("category");
+		var cVal = c.options[c.selectedIndex].value;
+			if  (cVal == 1 || cVal == 2 || cVal == 3 || cVal == 4 || cVal == 6){
+			$('#weight').parent().removeClass('hidden');
+		}
+	});
+		
+	$('#rpatypeaero').parent().addClass('hidden');
+	$('.save-exit').hide();
+	$('#weight, #category').on('change', function() {
+		$('.save-exit').show();
+	});
+	
+	$('#weight').on('change', function() {
+		var c = document.getElementById("category");
+		var cVal = c.options[c.selectedIndex].value;
+		var w = document.getElementById("weight");
+		var wVal = w.options[w.selectedIndex].value;
+
+		if  (cVal == 2 && wVal == 4){
+			$('#rpatypeaero').parent().removeClass('hidden');
+		}
+		if  (cVal == 2 && wVal == 5){
+			$('#rpatypeaero').parent().removeClass('hidden');
+		}
+		if (wVal == 1 || wVal ==2 || wVal ==3){
+		    $('#rpatypeaero').parent().addClass('hidden');
+		}
+	});
+	
+	$('#rpatypeair').parent().addClass('hidden');
+	$('.save-exit').hide();
+	$('#weight, #category').on('change', function() {
+		$('.save-exit').show();
+	});
+	$('#weight').on('change', function() {
+		var c = document.getElementById("category");
+		var cVal = c.options[c.selectedIndex].value;
+		var w = document.getElementById("weight");
+		var wVal = w.options[w.selectedIndex].value;
+
+		if  (cVal == 5 && wVal == 4){
+			$('#rpatypeair').parent().removeClass('hidden');
+		}
+		if  (cVal == 5 && wVal == 5){
+			$('#rpatypeair').parent().removeClass('hidden');
+		}
+		if (wVal == 1 || wVal ==2 || wVal ==3){
+		    $('#rpatypeair').parent().addClass('hidden');
+		}
+	});
+	
+		$('#rpatypeheli').parent().addClass('hidden');
+	$('.save-exit').hide();
+	$('#weight, #category').on('change', function() {
+		$('.save-exit').show();
+	});
+	$('#weight').on('change', function() {
+		var c = document.getElementById("category");
+		var cVal = c.options[c.selectedIndex].value;
+		var w = document.getElementById("weight");
+		var wVal = w.options[w.selectedIndex].value;
+
+		if  (cVal == 3 && wVal == 4){
+			$('#rpatypeheli').parent().removeClass('hidden');
+		}
+		if  (cVal == 3 && wVal == 5){
+			$('#rpatypeheli').parent().removeClass('hidden');
+		}
+		if (wVal == 1 || wVal ==2 || wVal ==3){
+		    $('#rpatypeair').parent().addClass('hidden');
+		}
+	});
+	
+		$('#rpatypemulti').parent().addClass('hidden');
+	$('.save-exit').hide();
+	$('#weight, #category').on('change', function() {
+		$('.save-exit').show();
+	});
+	$('#weight').on('change', function() {
+		var c = document.getElementById("category");
+		var cVal = c.options[c.selectedIndex].value;
+		var w = document.getElementById("weight");
+		var wVal = w.options[w.selectedIndex].value;
+
+		if  (cVal == 4 && wVal == 4){
+			$('#rpatypemulti').parent().removeClass('hidden');
+		}
+		if  (cVal == 4 && wVal == 5){
+			$('#rpatypemulti').parent().removeClass('hidden');
+		}
+		if (wVal == 1 || wVal ==2 || wVal ==3){
+		    $('#rpatypemulti').parent().addClass('hidden');
+		}
+	});
+	
+		$('#rpatypepow').parent().addClass('hidden');
+	$('.save-exit').hide();
+	$('#weight, #category').on('change', function() {
+		$('.save-exit').show();
+	});
+	$('#weight').on('change', function() {
+		var c = document.getElementById("category");
+		var cVal = c.options[c.selectedIndex].value;
+		var w = document.getElementById("weight");
+		var wVal = w.options[w.selectedIndex].value;
+
+		if  (cVal == 6 && wVal == 4){
+			$('#rpatypepow').parent().removeClass('hidden');
+		}
+		if  (cVal == 6 && wVal == 5){
+			$('#rpatypepow').parent().removeClass('hidden');
+		}
+		if (wVal == 1 || wVal ==2 || wVal ==3){
+		    $('#rpatypepow').parent().addClass('hidden');
+		}
+	});
+
+	$('#next').click(function(){
+		var c = document.getElementById("category");
+		var cVal = c.options[c.selectedIndex].value;
+		var w = document.getElementById("weight");
+		var wVal = w.options[w.selectedIndex].value;
+		var t = document.getElementById("rpatypeaero");
+		var tVal = t.options[t.selectedIndex].value;
+    var tVisible = $('#type').parent().hasClass('hidden');
+
+			if(cVal == 1){
+				$("#error").show();
+				$("#category").addClass('form-error');
+				$('#category').on('change', function() {
+  					$("#category").removeClass('form-error');
+				});
+			}
+			if(wVal == 1){
+				$("#error").show();
+				$("#weight").addClass('form-error');
+				$('#weight').on('change', function() {
+  					$("#weight").removeClass('form-error');
+				});
+			}
+			if(tVisible && tVal == 1){
+				$("#error").show();
+				$("#rpatypeaero").addClass('form-error');
+				$('#rpatypeaero').on('change', function() {
+  					$("#rpatypeaero").removeClass('form-error');
+				});
+			}
+			if (cVal > 1 && wVal > 1 /*&& tVal > 1*/) {
+				//$("#error").hide();
+				return true;
+			}
+			return false;
+	});
+
+</script>
+</body>
+</html>
